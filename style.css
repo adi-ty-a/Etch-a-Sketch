@@ -1,0 +1,14 @@
+#container{
+    background-color: darkgrey;
+    height: 500px;
+    width: 500px;
+    margin: 150px auto;
+}
+.box{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+
+}
