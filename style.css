@@ -3,12 +3,17 @@
     height: 500px;
     width: 500px;
     margin: 150px auto;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
 }
 .box{
     height: 20px;
     width: 20px;
     background-color: black;
-    display: flex;
-    flex-direction: row;
-
+}
+.subdiv{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
 }
