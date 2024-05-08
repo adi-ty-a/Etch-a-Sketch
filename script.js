@@ -3,7 +3,9 @@ const grid = document.querySelector("#container");
 //button 
 const button = document.querySelector("#noofsquare");
 button.addEventListener("click", () => {
-    noofblock = prompt("enter the no of block per side");
+    do{
+    noofblock = prompt("enter the no of block per side under 100");
+    }while(noofblock == 100);
     removediv();
     creatediv();
 });

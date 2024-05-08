@@ -8,13 +8,12 @@
     flex-direction: row;
 }
 .box{
-    height: 20px;
-    width: 20px;
     background-color: black;
     flex: 1 1 auto;
 }
 .subdiv{
     display:flex;
     flex-direction: column;
+    flex: 1 1 0;
     gap: 10px;
 }
