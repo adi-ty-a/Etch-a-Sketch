@@ -11,10 +11,10 @@
     height: 20px;
     width: 20px;
     background-color: black;
+    flex: 1 1 auto;
 }
 .subdiv{
     display:flex;
     flex-direction: column;
-    
     gap: 10px;
 }
