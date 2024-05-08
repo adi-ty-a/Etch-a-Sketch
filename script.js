@@ -10,5 +10,6 @@ for(let i=0;i<=16;i++){
         div.classList.add("box");
         subdiv.appendChild(div);
     }
+    
     grid.appendChild(subdiv);
 }
