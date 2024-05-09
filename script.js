@@ -34,7 +34,7 @@ for(let i=0;i<=noofblock;i++){
 const newdiv = document.querySelectorAll(".box");
 newdiv.forEach((button) => {
 button.addEventListener("mouseover", () => {
-  button.style["background-color"] = "red";
+  button.style["background-color"] = "#775144";
 });
 });
 };

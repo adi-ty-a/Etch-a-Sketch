@@ -1,19 +1,48 @@
 #container{
-    background-color: darkgrey;
-    height: 500px;
-    width: 500px;
-    margin: 150px auto;
+    padding: 10px;
+    border: 12px solid #775144;
+    border-radius: 24px;
+    background-color: #F4DBD8;
+    height: 960px;
+    width: 960px;
+    margin: 50px auto;
     display: flex;
-    gap: 10px;
+    gap: 5px;
     flex-direction: row;
 }
 .box{
-    background-color: black;
+    background-color: #BEA8A7;
     flex: 1 1 auto;
+    border-radius: 6px;
 }
 .subdiv{
     display:flex;
     flex-direction: column;
     flex: 1 1 0;
-    gap: 10px;
+    gap: 5px;
+}
+#noofsquare{
+    width: auto;
+    color: #2A0800;
+    background-color: #F4DBD8;
+    border: 8px solid #775144;
+    border-radius: 6px;
+    margin: 50px;
+    padding: 14px 24px;
+    font-size: 24px;
+    text-align: center;
+    display: inline-block;
+    transition-duration: 0.4s;
+}
+  
+#noofsquare:hover {
+    background-color: #775144; /* Green */
+    color: white;
+  }
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2A0800;
 }
