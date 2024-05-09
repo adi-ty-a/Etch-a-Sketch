@@ -20,21 +20,26 @@ main.forEach((box) => {
 
 // 16*16 div to container;
 function creatediv(){
-for(let i=0;i<=noofblock;i++){
+for(let i=1;i<=noofblock;i++){
     let subdiv = document.createElement("div");
     subdiv.classList.add("subdiv");
-    for(let j=0 ;j<=noofblock;j++){
+    for(let j=1 ;j<=noofblock;j++){
         let div= document.createElement("div");
         div.classList.add("box");
         subdiv.appendChild(div);
     }
     grid.appendChild(subdiv);
 }
-//red color
+// color
 const newdiv = document.querySelectorAll(".box");
+
 newdiv.forEach((button) => {
 button.addEventListener("mouseover", () => {
-  button.style["background-color"] = "#775144";
+
+    let clr = window.getComputedStyle(button);
+    let clrbox = parseFloat(clr.opacity);
+    clrbox += 0.1;
+    button.style.opacity = clrbox;
 });
 });
 };

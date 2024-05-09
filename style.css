@@ -11,9 +11,10 @@
     flex-direction: row;
 }
 .box{
-    background-color: #BEA8A7;
+    background-color: #775144;
     flex: 1 1 auto;
     border-radius: 6px;
+    opacity: .1;
 }
 .subdiv{
     display:flex;
